@@ -1,0 +1,8 @@
+<phpunit>
+  <testsuites>
+    <testsuite name="Calculator">
+      <file>tests/CalculatorWithFixtureTest.php</file>
+      <file>tests/CalculatorTest.php</file>
+    </testsuite>
+  </testsuites>
+</phpunit>
