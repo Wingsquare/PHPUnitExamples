@@ -1,7 +1,7 @@
 <?php
     use PHPUnit\Framework\TestCase;
 
-    class CalculatorTest extends TestCase {
+    class CalculatorTest extends TestCase {        
         
         public function testIsSumCorrect(){
             $calc = new Calculator();
@@ -34,7 +34,7 @@
             $calc = new Calculator();
             $calc->multiply(5,10);
         }
-        
+
 
         public function subtractionProvider(){
             return [
@@ -44,6 +44,6 @@
                     "data4"=> [ 1 , 0.25 , 0.75]
             ];
         }
-        
+                
 
     }
